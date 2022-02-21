@@ -1,0 +1,71 @@
+.container_main{
+    display: flex;
+    height: 450px;
+    margin-top: 12px;
+    background-color: whitesmoke;
+}
+
+.mainwrapper1{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.mainwrapper1 > h4{
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.mainwrapper1 > h1{
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 70px;
+    line-height: 70px;
+}
+.mainwrapper1 > p{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 8px;
+}
+.mainwrapper1 > button{
+    width: 140px;
+    height: 40px;
+    color: white;
+    border: 0;
+    background: #46A358;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 44px;
+}
+.mainwrapper1 > button:active{
+    transform: scale(.99);
+}
+
+
+
+.mainwrapper2{
+    flex:1;
+    display: flex;
+}
+.mainwrapper2 > .mainbig{
+    width: 418px;
+    height: 418px;
+    
+}
+
+.mainwrapper2 > .mainsmall{
+    position: absolute;
+    width: 135px;
+    height: 135px;
+    margin-top: 260px;
+    padding-left: 250px;
+}
