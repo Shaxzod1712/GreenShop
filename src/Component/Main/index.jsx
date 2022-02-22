@@ -12,7 +12,7 @@ class Main extends React.Component{
                 <div className="mainwrapper1">
                     <h4>WELCOME TO GREENSHOP</h4>
                     <h1>LET'S MAKE A BATTER PLANET</h1>
-                    <p>We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create an unique Urban Jungle. Order your favorite plants!</p>
+                    <p>We are an online plant shop offering a wide range of cheap and trendy plants. Use <br /> our plants to create an unique Urban Jungle. Order your favorite plants!</p>
                     <button>SHOP NOW</button>
                 </div>
                 <div className="mainwrapper2">

@@ -18,7 +18,7 @@
 
 .bodywrapper2 > .mininavbar{
     display: flex;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     height: 24px;
     margin-bottom: 23px;
 } 
@@ -61,10 +61,6 @@
 }
 
 
-.bodyfoto{
-    border: 1px solid blue;
-    height: 1162px;
-} 
 
 .bodywrapper1 > .categories{
     margin: 0 30px;
@@ -106,4 +102,92 @@
 .categories_body2 > p:hover {
     color: #46A358;
     cursor: pointer;
+}
+
+.categories_body_prise{
+    margin-left: 24px;
+}
+
+.categories_body_prise> input{
+    margin: 15px 0 15px 0;
+}
+
+.categories_body_prise >p{
+    margin: 0;
+    padding: 0;
+    color: #46A358;
+    margin: 15px 0 15px 0;
+}
+
+.categories_body_prise >button{
+    width: 90px;
+    height: 35px;
+    color: white;
+    font-weight: 600;
+    background: #46A358;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    margin: 15px 0 15px 0;
+} 
+
+.categories_body_prise >button:active{
+    transform: scale(.98);
+}
+
+.categories_body_size{
+    display: flex;
+}
+.categories_body_size >.categories_body_size1{
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 40px;
+    margin-left: 24px;
+}
+
+.categories_body_size1 > p:hover{
+    cursor: pointer;
+    color: #46A358;
+}
+
+.categories_body_size >.categories_body_size2{
+    margin-left: auto;
+    padding: 0;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 40px;
+    margin-right: 24px;
+}
+
+.bodyfoto{
+     height: 1140px;
+} 
+.body__{
+    display: flex;
+}
+.bodyfoto1{
+    flex: 1;
+    margin-bottom: 40px;
+}
+
+.bodyfoto1 > img {
+    width: 250px;
+    height: 250px;
+    margin: 31px 0 31px 0;
+}
+.bodyfoto1 > h5 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0;
+    padding: 0;
+}
+.bodyfoto1 > p {
+    font-weight: 700;
+    color: #46A358;
+    margin: 0;
+    padding: 0;
 }
