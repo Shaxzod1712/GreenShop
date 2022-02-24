@@ -1,4 +1,4 @@
-.container_body{
+.container-body{
     display: flex;
     flex: 1;
     height: 1190px;
@@ -7,13 +7,13 @@
 
 .bodywrapper1{
     flex: 1;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .bodywrapper2{
     flex: 2.5;
     margin-left: 30px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 .bodywrapper2 > .mininavbar{
@@ -32,8 +32,8 @@
     margin: 0;
     padding: 0;
     margin: 0 30px 0 0;
-    font-weight: 450;
-    font-size: 14px;
+    font-weight: 500;
+    font-size: 16px;
     line-height: 16px;
 }
 
@@ -51,8 +51,8 @@
 .mininavbar_2 > p{
     margin: 0;
     padding: 0;
-    font-weight: 450;
-    font-size: 14px;
+    font-weight: 500;
+    font-size: 16px;
     line-height: 16px;
 }
 
@@ -63,9 +63,10 @@
 
 
 .bodywrapper1 > .categories{
+    background-color: rgb(253, 249, 249);
     margin: 0 30px;
-    border: 1px solid blueviolet;
-    height: 774px;
+    /* border: 1px solid blueviolet; */
+    height: 714px;
 }
 .categories > h4 {
     margin: 8px 0 0 14px;
@@ -84,7 +85,7 @@
     font-style: normal;
     font-size: 14px;
     line-height: 40px;
-    margin-left: 24px;
+    margin-left: 54px;
 }
 .categories_body1 > p:hover {
     color: #46A358;
@@ -97,7 +98,7 @@
     font-style: normal;
     font-size: 14px;
     line-height: 40px;
-    margin-right: 24px;
+    margin-right: 54px;
 }
 .categories_body2 > p:hover {
     color: #46A358;
@@ -105,18 +106,18 @@
 }
 
 .categories_body_prise{
-    margin-left: 24px;
+    margin-left: 54px;
 }
 
 .categories_body_prise> input{
-    margin: 15px 0 15px 0;
+    margin: 5px 0 5px 0;
 }
 
 .categories_body_prise >p{
     margin: 0;
     padding: 0;
     color: #46A358;
-    margin: 15px 0 15px 0;
+    margin: 5px 0 5px 0;
 }
 
 .categories_body_prise >button{
@@ -128,7 +129,7 @@
     border-radius: 6px;
     border: none;
     cursor: pointer;
-    margin: 15px 0 15px 0;
+    margin: 5px 0 5px 0;
 } 
 
 .categories_body_prise >button:active{
@@ -144,7 +145,7 @@
     font-style: normal;
     font-size: 14px;
     line-height: 40px;
-    margin-left: 24px;
+    margin-left: 54px;
 }
 
 .categories_body_size1 > p:hover{
@@ -158,9 +159,31 @@
     font-style: normal;
     font-size: 14px;
     line-height: 40px;
-    margin-right: 24px;
+    margin-right: 54px;
 }
 
+.salephoto{
+    display: flex;
+    width: 524px;
+    height: 470px;
+    justify-content: center;
+    
+}
+.salephotobackgraund{
+    display: flex;
+    width: 466px;
+    height: 470px;
+    background: linear-gradient(180deg, rgba(70, 163, 88, 0.1) 0%, rgba(70, 163, 88, 0.03) 100%);
+}
+.salephoto1{
+    display: flex;
+    position: absolute;
+    margin-top: 99px;
+}
+.salephoto2{
+    position: absolute;
+    width: 316px;
+}
 .bodyfoto{
      height: 1140px;
 } 
@@ -177,17 +200,87 @@
     height: 250px;
     margin: 31px 0 31px 0;
 }
-.bodyfoto1 > h5 {
+
+.bodyfoto1_{
+    display: flex;
+}
+.bodyfoto1_right > h5{
+    margin: 0;
+    padding: 0;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 16px;
-    margin: 0;
-    padding: 0;
+    color: #3D3D3D;
 }
-.bodyfoto1 > p {
-    font-weight: 700;
-    color: #46A358;
+.bodyfoto1_right > p{
     margin: 0;
     padding: 0;
+    margin-top: 8px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 16px;
+    color: #46A358;
+}
+
+.bodyfoto1_left{
+    display: flex;
+    margin-left: 65px;
+}
+.bodyfoto1_left >h1{
+    margin: 0;
+    /* padding: 0; */
+}
+.decriment{
+    padding: 0px 10px 0px 25px;
+    border-bottom-left-radius: 14px;
+    border-top-left-radius: 14px;
+    background-color: #46A358;
+    color: white;
+    cursor: pointer;
+}
+
+.count {
+    padding: 5px 15px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.incriment{
+    padding: 0px 20px 0px 10px;
+    border-bottom-right-radius: 14px;
+    border-top-right-radius: 14px;
+    background-color: #46A358;
+    color: white;
+    cursor: pointer;
+}
+
+.bodyend {
+    display: flex;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+.bodyend1 {
+    display: flex;
+    margin-left: auto;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.bodyend1> h2 {
+    padding: 5px 15px;
+    margin-right: 10px;
+    font-weight: 350;
+    font-size: 22px;
+    border-radius: 8px;
+    border: 0.2px solid #bbb8b8;
+}
+.bodyend1> h2:hover{
+    background-color: #46A358;
+    color: #fff;
+} 
+.bodyend1> h2:active {
+    transform: scale(.97);
 }

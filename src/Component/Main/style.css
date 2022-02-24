@@ -57,15 +57,16 @@
     display: flex;
 }
 .mainwrapper2 > .mainbig{
-    width: 418px;
-    height: 418px;
+    width: 448px;
+    height: 488px;
+    margin-left: 260px;
     
 }
 
 .mainwrapper2 > .mainsmall{
     position: absolute;
-    width: 135px;
-    height: 135px;
-    margin-top: 260px;
-    padding-left: 250px;
+    width: 215px;
+    height: 215px;
+    margin-top: 240px;
+    padding-left: 230px;
 }
