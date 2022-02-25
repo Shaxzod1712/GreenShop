@@ -17,25 +17,154 @@ class Body extends React.Component{
     constructor(){
         super()
         this.state = {
-            count: 0,
+            count1: 0,
+            count2: 0,
+            count3: 0,
+            count4: 0,
+            count5: 0,
+            count6: 0,
+            count7: 0,
+            count8: 0,
+            count9: 0,
         }
     }
     render(){
-        const decriment =()=>{
-            if(this.state.count > 0){
+        const decriment1 =()=>{
+            if(this.state.count1 > 0){
             this.setState({
-                    count : this.state.count - 1
-
+                    count1 : this.state.count1 - 1
                 })
             }
         }
-        const incriment = ()=>{
-            if(this.state.count < 10){
+        const incriment1 = ()=>{
+            if(this.state.count1 < 10){
             this.setState({
-                count : this.state.count + 1  
+                count1 : this.state.count1 + 1  
             })
         }
         }
+
+        const decriment2 =()=>{
+            if(this.state.count2 > 0){
+            this.setState({
+                    count2 : this.state.count2 - 1
+                })
+            }
+        }
+        const incriment2 = ()=>{
+            if(this.state.count2 < 10){
+            this.setState({
+                count2 : this.state.count2 + 1  
+            })
+        }
+        }
+
+        const decriment3 =()=>{
+            if(this.state.count3 > 0){
+            this.setState({
+                    count3 : this.state.count3 - 1
+                })
+            }
+        }
+        const incriment3 = ()=>{
+            if(this.state.count3 < 10){
+            this.setState({
+                count3 : this.state.count3 + 1  
+            })
+        }
+        }
+
+        const decriment4 =()=>{
+            if(this.state.count4 > 0){
+            this.setState({
+                    count4 : this.state.count4 - 1
+                })
+            }
+        }
+        const incriment4 = ()=>{
+            if(this.state.count4 < 10){
+            this.setState({
+                count4 : this.state.count4 + 1  
+            })
+        }
+        }
+
+        const decriment5 =()=>{
+            if(this.state.count5 > 0){
+            this.setState({
+                    count5 : this.state.count5 - 1
+                })
+            }
+        }
+        const incriment5 = ()=>{
+            if(this.state.count5 < 10){
+            this.setState({
+                count5 : this.state.count5 + 1  
+            })
+        }
+        }
+
+        const decriment6 =()=>{
+            if(this.state.count6 > 0){
+            this.setState({
+                    count6 : this.state.count6 - 1
+                })
+            }
+        }
+        const incriment6 = ()=>{
+            if(this.state.count6 < 10){
+            this.setState({
+                count6 : this.state.count6 + 1  
+            })
+        }
+        }
+
+        const decriment7 =()=>{
+            if(this.state.count7 > 0){
+            this.setState({
+                    count7 : this.state.count7 - 1
+                })
+            }
+        }
+        const incriment7 = ()=>{
+            if(this.state.count7 < 10){
+            this.setState({
+                count7 : this.state.count7 + 1  
+            })
+        }
+        }
+
+        const decriment8 =()=>{
+            if(this.state.count8 > 0){
+            this.setState({
+                    count8 : this.state.count8 - 1
+                })
+            }
+        }
+        const incriment8 = ()=>{
+            if(this.state.count8 < 10){
+            this.setState({
+                count8 : this.state.count8 + 1  
+            })
+        }
+        }
+
+        const decriment9 =()=>{
+            if(this.state.count9 > 0){
+            this.setState({
+                    count9 : this.state.count9 - 1
+                })
+            }
+        }
+        const incriment9 = ()=>{
+            if(this.state.count9 < 10){
+            this.setState({
+                count9 : this.state.count9 + 1  
+            })
+        }
+        }
+
+        
         return(
             <div className="container_body">
                 <div className="container-body">
@@ -104,7 +233,7 @@ class Body extends React.Component{
                             <p>Sale</p>
                         </div>
                         <div className="mininavbar_2">
-                            <p>Short by: Default sorting  \/</p>
+                            <p>Short by: Default sorting</p>
                         </div>
                     </div>
                     <div className="bodyfoto">
@@ -117,9 +246,9 @@ class Body extends React.Component{
                                         <p>$119.00</p>
                                     </div>
                                     <div className="bodyfoto1_left">
-                                        <h1 className="decriment" onClick={decriment}>-</h1>
-                                        <h1 className="count">{this.state.count}</h1>
-                                        <h1 className="incriment" onClick={incriment}>+</h1>
+                                        <h1 className="decriment" onClick={decriment1}>-</h1>
+                                        <h1 className="count">{this.state.count1}</h1>
+                                        <h1 className="incriment" onClick={incriment1}>+</h1>
                                     </div>
                                 </div>
                             </div>
@@ -131,9 +260,9 @@ class Body extends React.Component{
                                         <p>$169.00</p>
                                     </div>
                                     <div className="bodyfoto1_left">
-                                        <h1 className="decriment" onClick={decriment}>-</h1>
-                                        <h1 className="count">{this.state.count}</h1>
-                                        <h1 className="incriment" onClick={incriment}>+</h1>
+                                        <h1 className="decriment" onClick={decriment2}>-</h1>
+                                        <h1 className="count">{this.state.count2}</h1>
+                                        <h1 className="incriment" onClick={incriment2}>+</h1>
                                     </div>
                                 </div>
                             </div>
@@ -145,9 +274,9 @@ class Body extends React.Component{
                                         <p>$199.00</p>
                                     </div>
                                     <div className="bodyfoto1_left">
-                                        <h1 className="decriment" onClick={decriment}>-</h1>
-                                        <h1 className="count">{this.state.count}</h1>
-                                        <h1 className="incriment" onClick={incriment}>+</h1>
+                                        <h1 className="decriment" onClick={decriment3}>-</h1>
+                                        <h1 className="count">{this.state.count3}</h1>
+                                        <h1 className="incriment" onClick={incriment3}>+</h1>
                                     </div>
                                 </div>
                             </div>
@@ -164,9 +293,9 @@ class Body extends React.Component{
                                         <p>$129.00</p>
                                     </div>
                                     <div className="bodyfoto1_left">
-                                        <h1 className="decriment" onClick={decriment}>-</h1>
-                                        <h1 className="count">{this.state.count}</h1>
-                                        <h1 className="incriment" onClick={incriment}>+</h1>
+                                        <h1 className="decriment" onClick={decriment4}>-</h1>
+                                        <h1 className="count">{this.state.count4}</h1>
+                                        <h1 className="incriment" onClick={incriment4}>+</h1>
                                     </div>
                                 </div>
                             </div>
@@ -178,9 +307,9 @@ class Body extends React.Component{
                                         <p>$139.00</p>
                                     </div>
                                     <div className="bodyfoto1_left">
-                                        <h1 className="decriment" onClick={decriment}>-</h1>
-                                        <h1 className="count">{this.state.count}</h1>
-                                        <h1 className="incriment" onClick={incriment}>+</h1>
+                                        <h1 className="decriment" onClick={decriment5}>-</h1>
+                                        <h1 className="count">{this.state.count5}</h1>
+                                        <h1 className="incriment" onClick={incriment5}>+</h1>
                                     </div>
                                 </div>
                             </div>
@@ -192,9 +321,9 @@ class Body extends React.Component{
                                         <p>$179.00</p>
                                     </div>
                                     <div className="bodyfoto1_left">
-                                        <h1 className="decriment" onClick={decriment}>-</h1>
-                                        <h1 className="count">{this.state.count}</h1>
-                                        <h1 className="incriment" onClick={incriment}>+</h1>
+                                        <h1 className="decriment" onClick={decriment6}>-</h1>
+                                        <h1 className="count">{this.state.count6}</h1>
+                                        <h1 className="incriment" onClick={incriment6}>+</h1>
                                     </div>
                                 </div>
                             </div>
@@ -211,9 +340,9 @@ class Body extends React.Component{
                                         <p>$99.00</p>
                                     </div>
                                     <div className="bodyfoto1_left">
-                                        <h1 className="decriment" onClick={decriment}>-</h1>
-                                        <h1 className="count">{this.state.count}</h1>
-                                        <h1 className="incriment" onClick={incriment}>+</h1>
+                                        <h1 className="decriment" onClick={decriment7}>-</h1>
+                                        <h1 className="count">{this.state.count7}</h1>
+                                        <h1 className="incriment" onClick={incriment7}>+</h1>
                                     </div>
                                 </div>
                             </div>
@@ -225,9 +354,9 @@ class Body extends React.Component{
                                         <p>$59.00</p>
                                     </div>
                                     <div className="bodyfoto1_left">
-                                        <h1 className="decriment" onClick={decriment}>-</h1>
-                                        <h1 className="count">{this.state.count}</h1>
-                                        <h1 className="incriment" onClick={incriment}>+</h1>
+                                        <h1 className="decriment" onClick={decriment8}>-</h1>
+                                        <h1 className="count">{this.state.count8}</h1>
+                                        <h1 className="incriment" onClick={incriment8}>+</h1>
                                     </div>
                                 </div>
                             </div>
@@ -239,9 +368,9 @@ class Body extends React.Component{
                                         <p>$39.00</p>
                                     </div>
                                     <div className="bodyfoto1_left">
-                                        <h1 className="decriment" onClick={decriment}>-</h1>
-                                        <h1 className="count">{this.state.count}</h1>
-                                        <h1 className="incriment" onClick={incriment}>+</h1>
+                                        <h1 className="decriment" onClick={decriment9}>-</h1>
+                                        <h1 className="count">{this.state.count9}</h1>
+                                        <h1 className="incriment" onClick={incriment9}>+</h1>
                                     </div>
                                 </div>
                             </div>
